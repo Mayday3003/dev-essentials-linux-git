@@ -1,12 +1,12 @@
-# Dev Essentials: Linux, Git & GitHub 🚀
+# Dev Essentials: Linux, Git & GitHub 
 
-Welcome to the ultimate beginner's guide to mastering the Linux command line, control de versiones (version control) with Git, and project collaboration on GitHub. This repository is bilingual, featuring complete guides in both English and Spanish!
+Welcome to the beginner's guide to mastering the Linux command line, control de versiones (version control) with Git, and project collaboration on GitHub. 
 
-Bienvenido a la guía definitiva para principiantes para dominar la línea de comandos de Linux, el control de versiones con Git y la colaboración de proyectos en GitHub. ¡Este repositorio es bilingüe y cuenta con guías completas tanto en inglés como en español!
+Bienvenido a la guía  para principiantes para dominar la línea de comandos de Linux, el control de versiones con Git y la colaboración de proyectos en GitHub.
 
 ---
 
-## 🗺️ Choose your language / Selecciona tu idioma
+## Choose your language / Selecciona tu idioma
 
 <p align="center">
   <a href="#-table-of-contents">
@@ -20,7 +20,7 @@ Bienvenido a la guía definitiva para principiantes para dominar la línea de co
 
 ---
 
-## 🇬🇧 Table of Contents
+##  Table of Contents
 
 Welcome to the course! Below is the complete roadmap. Click on any topic to jump directly to the chapter.
 
@@ -52,7 +52,7 @@ Welcome to the course! Below is the complete roadmap. Click on any topic to jump
 
 ---
 
-## 🇪🇸 Tabla de Contenido
+##  Tabla de Contenido
 
 ¡Te damos la bienvenida al curso! A continuación tienes el mapa de aprendizaje completo. Haz clic en cualquier tema para ir directamente al capítulo.
 

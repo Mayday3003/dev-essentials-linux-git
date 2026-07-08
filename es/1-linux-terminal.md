@@ -58,42 +58,6 @@ Si vas a usar Linux desde un **Live USB**, debes indicarle a tu computadora que 
 | **Toshiba** | `F12` |
 | **Apple (Intel)** | Mantener presionada la tecla `Option/Alt` (`⌥`) al encender |
 
----
-
-### 2. Guía Específica para MacBook Air (Retina, 13", 2019 - Chip T2)
-Los equipos Apple fabricados entre 2018 y 2020 que incorporan el **chip de seguridad Apple T2** bloquean por defecto el arranque desde discos externos para proteger el sistema. Para usar un Live USB en estos equipos, se debe hacer una configuración inicial única.
-
-> [!NOTE]
-> Este procedimiento no borra tus archivos ni modifica tu macOS. Solo le da permiso a la Mac para arrancar desde tu USB de Linux si tú lo decides expresamente al encender.
-
-#### Parte 1: Autorizar el Arranque Externo (Solo la primera vez)
-1.  Apaga tu MacBook Air por completo.
-2.  Enciende el equipo y mantén presionadas las teclas **`Cmd (⌘) + R`** hasta que aparezca el logo de Apple o un globo terráqueo. Entrarás al modo de recuperación (**macOS Recovery**).
-3.  Si te lo pide, selecciona tu usuario de macOS e introduce tu contraseña de administrador.
-4.  En la barra de menú superior, haz clic en **Utilidades** > **Utilidad de Seguridad de Arranque** (Startup Security Utility).
-5.  Autentícate de nuevo si es necesario.
-6.  En **Arranque seguro (Secure Boot)**, selecciona **Sin seguridad** (No Security). (Esto garantiza la máxima compatibilidad con distros de Linux).
-7.  En **Arranque externo (External Boot)**, selecciona **Permitir el arranque desde medios externos o extraíbles**.
-8.  Cierra la utilidad y reinicia tu Mac desde el menú Apple.
-
-#### Parte 2: Arrancar Linux Mint desde el Pendrive
-1.  Apaga tu MacBook Air por completo.
-2.  Conecta tu pendrive USB (usa un adaptador USB-A a USB-C si es necesario).
-3.  Enciende el equipo y mantén presionada la tecla **`Option/Alt (⌥)`** de inmediato.
-4.  Suéltala cuando veas la pantalla gris del **Gestor de Arranque (Startup Manager)**.
-5.  Selecciona el disco de color amarillo/naranja llamado **"EFI Boot"** y presiona `Enter`.
-6.  Aparecerá el menú de inicio de Linux Mint. Presiona `Enter` para cargar el escritorio Cinnamon.
-
-> [!TIP]
-> **¿No funciona el WiFi en tu MacBook con chip T2?**
-> Algunas tarjetas de red Broadcom integradas en las Mac requieren controladores privativos que no vienen preinstalados. Si no ves redes WiFi:
-> *   Conéctate a internet temporalmente usando un adaptador USB a Ethernet.
-> *   Abre el **Gestor de Actualizaciones** o el **Centro de Controladores** de Linux Mint, donde el sistema detectará e instalará el controlador adecuado de forma automática.
-
-#### Parte 3: Salir de Linux Mint y volver a macOS
-1.  En Linux Mint, ve al Menú inferior izquierdo, haz clic en el botón de apagado y selecciona **Apagar** (Shut Down).
-2.  Espera a que el equipo se apague del todo y **retira el pendrive**.
-3.  Enciende tu Mac normalmente. Arrancará de forma automática en macOS, tal y como lo dejaste.
 
 ---
 

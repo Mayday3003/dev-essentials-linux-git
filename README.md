@@ -9,18 +9,18 @@ Bienvenido a la guía  para principiantes para dominar la línea de comandos de 
 ## Choose your language / Selecciona tu idioma
 
 <p align="center">
-  <a href="#-table-of-contents">
+  <a href="#table-of-contents">
     <img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge&logo=github" alt="English Version" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#-tabla-de-contenido">
+  <a href="#tabla-de-contenido">
     <img src="https://img.shields.io/badge/Idioma-Español-red?style=for-the-badge&logo=github" alt="Versión en Español" />
   </a>
 </p>
 
 ---
 
-##  Table of Contents
+## Table of Contents
 
 Welcome to the course! Below is the complete roadmap. Click on any topic to jump directly to the chapter.
 
@@ -52,7 +52,7 @@ Welcome to the course! Below is the complete roadmap. Click on any topic to jump
 
 ---
 
-##  Tabla de Contenido
+## Tabla de Contenido
 
 ¡Te damos la bienvenida al curso! A continuación tienes el mapa de aprendizaje completo. Haz clic en cualquier tema para ir directamente al capítulo.
 

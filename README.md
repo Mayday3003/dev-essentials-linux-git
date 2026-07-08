@@ -50,6 +50,14 @@ Welcome to the course! Below is the complete roadmap. Click on any topic to jump
 *   [3.3 Resolving Conflicts](en/3-github-flow.md#33-resolving-conflicts)
 *   [3.4 The GitHub Flow (Pull Requests & Code Reviews)](en/3-github-flow.md#34-the-github-flow)
 
+### [Workshop: Databases with Python & GitHub 🐘🍃](en/4-workshop-db-python.md)
+*   [Part 1: Installing PostgreSQL](en/4-workshop-db-python.md#part-1-installing-postgresql-)
+*   [Part 2: Installing MongoDB](en/4-workshop-db-python.md#part-2-installing-mongodb-)
+*   [Part 3: Setting Up the Python Environment](en/4-workshop-db-python.md#part-3-setting-up-the-python-environment-)
+*   [Part 4: Python Connection Scripts](en/4-workshop-db-python.md#part-4-python-connection-scripts-)
+*   [Part 5: Git and GitHub Integration](en/4-workshop-db-python.md#part-5-git-and-github-integration-)
+*   [Practice Exercises](en/4-workshop-db-python.md#️-practice-exercises)
+
 ---
 
 ## Tabla de Contenido
@@ -81,6 +89,14 @@ Welcome to the course! Below is the complete roadmap. Click on any topic to jump
 *   [3.2 Ramas y Fusión (`git branch`, `git checkout -b`, `git merge`)](es/3-github-flow.md#32-ramas-y-fusión)
 *   [3.3 Resolución de Conflictos](es/3-github-flow.md#33-resolución-de-conflictos)
 *   [3.4 El Flujo de Trabajo en GitHub (Pull Requests y Revisiones)](es/3-github-flow.md#34-el-flujo-de-trabajo-en-github-github-flow)
+
+### [Taller: Bases de Datos con Python y GitHub 🐘🍃](es/4-taller-db-python.md)
+*   [Parte 1: Instalación de PostgreSQL](es/4-taller-db-python.md#parte-1-instalación-de-postgresql-)
+*   [Parte 2: Instalación de MongoDB](es/4-taller-db-python.md#parte-2-instalación-de-mongodb-)
+*   [Parte 3: Configurar el Entorno de Python](es/4-taller-db-python.md#parte-3-configurar-el-entorno-de-python-)
+*   [Parte 4: Scripts de Conexión con Python](es/4-taller-db-python.md#parte-4-scripts-de-conexión-con-python-)
+*   [Parte 5: Integración con Git y GitHub](es/4-taller-db-python.md#parte-5-integración-con-git-y-github-)
+*   [Ejercicios Prácticos](es/4-taller-db-python.md#️-ejercicios-prácticos)
 
 ---
 

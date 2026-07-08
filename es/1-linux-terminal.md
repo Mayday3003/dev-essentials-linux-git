@@ -18,6 +18,11 @@ Linux es de código abierto (open-source), extremadamente estable y seguro. Por 
 ### Las Distribuciones (Distros)
 Como Linux es solo el "motor", diferentes comunidades y empresas construyen su propio "automóvil" a su alrededor, añadiendo instaladores, gestores de paquetes y entornos de escritorio. A este paquete completo se le llama **Distribución (Distro)**. 
 
+<p align="center">
+  <img src="../images/distros-linux.jpg" alt="Distribuciones de Linux" width="650" />
+</p>
+
+
 En entornos de desarrollo e investigación, interactuarás principalmente con dos familias:
 1.  **Familia Debian / Ubuntu / Linux Mint:** Son las distros más amigables y populares. Su entorno gráfico suele ser muy intuitivo y son excelentes para crear entornos de trabajo portátiles y persistentes.
 2.  **Familia Red Hat / Fedora:** Sistemas modernos y robustos que integran las últimas tecnologías, muy utilizados en entornos corporativos y estaciones de trabajo avanzadas.
@@ -71,6 +76,12 @@ Al iniciar Linux Mint, verás el entorno de escritorio **Cinnamon**. Su diseño 
 ### El Sistema de Archivos en Linux
 A diferencia de Windows, en Linux **no existen letras de unidad** como `C:` o `D:`. Todo el sistema está organizado bajo un único árbol jerárquico que comienza en la **Raíz**, representada por una barra diagonal (`/`).
 
+
+<p align="center">
+  <img src="../images/linux-folders.png" alt="Estructura del sistema de archivos en Linux" width="650" />
+</p>
+
+
 Las carpetas más importantes para un usuario son:
 *   **`/home/tu_usuario`:** Tu carpeta personal (Home). Aquí se guardan tus archivos, descargas, escritorio y configuraciones personales. Equivale al `C:\Users\tu_usuario` de Windows.
 *   **`/media` o `/mnt`:** Directorios de montaje. Aquí es donde Linux monta automáticamente tus pendrives USB, discos duros externos y otras particiones del sistema.
@@ -97,7 +108,7 @@ Aunque el entorno gráfico es muy cómodo, el verdadero poder de Linux reside en
 Linux está diseñado desde sus cimientos para ser un sistema multiusuario y seguro. 
 
 *   **Usuario Estándar:** Es tu usuario diario. Tiene permisos para modificar sus propios archivos en `/home/tu_usuario`, pero no puede alterar la configuración del sistema ni dañar archivos críticos.
-*   **Superusuario (Root):** Es el administrador supremo del sistema. Tiene poder ilimitado para instalar programas, modificar la configuración y borrar cualquier archivo.
+*   **Superusuario (Root):** Es el administrador del sistema. Tiene poder ilimitado para instalar programas, modificar la configuración y borrar cualquier archivo.
 *   **`sudo` (SuperUser DO):** Es el comando que le dice a la terminal: *"Préstame los privilegios del superusuario (Root) por un momento para ejecutar esta acción específica"*.
 
 > [!IMPORTANT]
@@ -234,20 +245,6 @@ Dependiendo de la distribución que utilices, los comandos varían levemente:
     sudo dnf remove nombre_del_paquete
     ```
 
----
-
-## 1.11 Mantenimiento y Respaldos: Actualizaciones y Timeshift
-
-Un sistema estable requiere de mantenimiento preventivo sencillo pero efectivo.
-
-### 1. Gestor de Actualizaciones (Update Manager)
-Linux Mint tiene un pequeño icono de escudo en la barra de tareas. Revísalo regularmente para aplicar las actualizaciones de seguridad y correcciones de errores (niveles 1 a 3 son las más comunes y recomendadas).
-
-### 2. Copias de Respaldo con Timeshift
-Timeshift es una aplicación integrada en Linux Mint que permite tomar **instantáneas (snapshots)** del estado del sistema operativo. Si una actualización o configuración daña tu sistema, puedes abrir Timeshift y revertirlo al instante anterior para que vuelva a funcionar de inmediato.
-
-*   **Configuración básica:** Abre Timeshift desde el menú, selecciona **RSYNC** como el tipo de copia y selecciona un disco o partición destino (preferiblemente una unidad externa).
-*   **Crear Snapshot:** Haz clic en **Crear** para guardar el estado actual del sistema antes de hacer modificaciones críticas.
 
 ---
 
